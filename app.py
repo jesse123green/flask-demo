@@ -109,8 +109,8 @@ def plot_product(pid):
 	p.text(-93,42.5,text=[region_values['MW']],text_font_size="16pt", text_align="center", text_baseline="middle",text_color="#333333")
 	p.text(-93,41.7,text=[region_dates['MW']],text_font_size="9pt", text_align="center", text_baseline="middle",text_color="#333333")
 
-	p.text(-112,40,text=[region_values['W']],text_font_size="16pt", text_align="center", text_baseline="middle",text_color="#333333")
-	p.text(-112,39.2,text=[region_dates['W']],text_font_size="9pt", text_align="center", text_baseline="middle",text_color="#333333")
+	p.text(-111.9,40,text=[region_values['W']],text_font_size="16pt", text_align="center", text_baseline="middle",text_color="#333333")
+	p.text(-111.9,39.2,text=[region_dates['W']],text_font_size="9pt", text_align="center", text_baseline="middle",text_color="#333333")
 
 	p.text(-86,33,text=[region_values['S']],text_font_size="16pt", text_align="center", text_baseline="middle",text_color="#333333")
 	p.text(-86,32.2,text=[region_dates['S']],text_font_size="9pt", text_align="center", text_baseline="middle",text_color="#333333")
