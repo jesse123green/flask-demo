@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.9.2.min.css" type="text/css" />
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.9.2.min.js"></script>
+    {{ script | safe }}
+  </head>
+
+  <script>
+  function goBack() {
+      window.history.back();
+  }
+  </script>
+  <body>
+    <div class=page>
+      <button onclick="goBack()">Go Back</button>
+      <h1>{{ title | safe }}</h1>
+      {{ div | safe }}
+    </div>
+  </body>
+</html>
